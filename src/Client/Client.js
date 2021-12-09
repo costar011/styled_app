@@ -1,8 +1,14 @@
 import React from "react";
+import App from "../App";
+import { HashRouter } from "react-router-dom";
 
 class Client extends React.Component {
   render() {
-    return <h1>clinet</h1>;
+    return (
+      <HashRouter>
+        <App />
+      </HashRouter>
+    );
   }
 }
 
